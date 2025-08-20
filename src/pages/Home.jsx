@@ -255,32 +255,32 @@ export default function Home() {
       {/* Section CONTACT */}
       <section id="contact" className="bg-white py-8 px-6 text-gray-800">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+
+          {/* Téléphone */}
           <div className="flex flex-col items-center">
-          <Phone className="w-8 h-8 text-red-600 mb-2" />
-            <a
-              href="tel:0146281870"
-            >
-              <p className="font-semibold">Telephone</p>
+            <Phone className="w-8 h-8 text-red-600 mb-2" />
+            <a href="tel:0146281870">
+              <p className="font-semibold">Téléphone</p>
               <p className="text-sm">01 46 28 18 70</p>
             </a>
           </div>
-          <div className="flex flex-col items-center">
-            <Mail className="w-8 h-8 text-red-600 mb-2" />
-            <p className="font-semibold">Email</p>
-            <p className="text-sm">contact@sinojap.fr</p>
-          </div>
+
+          {/* Adresse */}
           <div className="flex flex-col items-center">
             <MapPin className="w-8 h-8 text-red-600 mb-2" />
             <p className="font-semibold">Adresse</p>
             <p className="text-sm">3 bd de Reuilly, 75012 Paris</p>
+          </div>
+
+          {/* Métro */}
+          <div className="flex flex-col items-center">
             <img
               src={metro}
               alt="station metro"
-              className="w-7 h-auto rounded shadow-md mt-4"
+              className="w-7 h-auto rounded shadow-md mb-2"
             />
-            <p className="text-sm md:text-base text-center md:text-left">
-              <span className="font">Dugommier</span>
-            </p>
+            <p className="font-semibold">Métro</p>
+            <p className="text-sm">Dugommier</p>
           </div>
         </div>
       </section>
