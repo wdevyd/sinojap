@@ -202,7 +202,7 @@ export default function Home() {
 
           <div className="flex flex-col items-center justify-center mb-8">
             <p className="text-4xl font-bold mb-1">
-              4.3<span className="text-2xl">/5</span>
+              4.4<span className="text-2xl">/5</span>
             </p>
             <p className="text-sm text-red-100">Basé sur 99+ avis clients</p>
           </div>
