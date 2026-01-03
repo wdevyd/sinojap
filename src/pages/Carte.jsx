@@ -118,7 +118,7 @@
             { name: 'Samoussa au boeuf', image: samoussa, price: '1.50€ / pièce' },
             { name: 'Tempura de crevette', image: tempura, price: '1.20€ / pièce' },
             { name: 'Raviolis vietnamiens', image: vietnamiens, price: '1.20€ / pièce' },
-            { name: 'Salade de choux', image: salade_choux, price: '1.60€ / 100g' },
+            { name: 'Salade de choux', image: salade_choux, price: '1.80€ / 100g' },
             { name: 'Salade de champignons noirs', image: champignons, price: '2.50€ / 100g' },
             { name: 'Salade de papaye verte', image: papaye, price: '2.00€ / 100g' },
             { name: 'Potage pékinois', image: potage, price: '3.50€ / pièce' },
@@ -132,14 +132,14 @@
         <Section
           title="Nos plats chauds"
           items={[
-            { name: 'Poulet caramel', image: pouletCaramel, price: '2.40€ / 100g' },
-            { name: 'Poulet croustillant', image: pouletCroustillant, price: '2.40 / 100g' },
-            { name: 'Poulet citron', image: pouletCitron, price: '2.40€ / 100g' },
-            { name: 'Poulet Teriyaki', image: poulet_teriyaki, price: '2.40€ / 100g' },
-            { name: 'Poulet curry coco', image: pouletCoco, price: '2.40€ / 100g' },
-            { name: 'Poulet piquant', image: pouletPiquant, price: '2.40€ / 100g' },
-            { name: 'Porc caramel', image: porcCaramel, price: '2.40€ / 100g' },
-            { name: 'Poisson du chef', image: poisson, price: '3.00€ / 100g' },
+            { name: 'Poulet caramel', image: pouletCaramel, price: '2.50€ / 100g' },
+            { name: 'Poulet croustillant', image: pouletCroustillant, price: '2.50€ / 100g' },
+            { name: 'Poulet citron', image: pouletCitron, price: '2.50€ / 100g' },
+            { name: 'Poulet Teriyaki', image: poulet_teriyaki, price: '2.50€ / 100g' },
+            { name: 'Poulet curry coco', image: pouletCoco, price: '2.50€ / 100g' },
+            { name: 'Poulet piquant', image: pouletPiquant, price: '2.50€ / 100g' },
+            { name: 'Porc caramel', image: porcCaramel, price: '2.50€ / 100g' },
+            { name: 'Poisson du chef', image: poisson, price: '3.20€ / 100g' },
             { name: 'Boeuf aux oignons', image: boeuf_oignons, price: '2.80€ / 100g' },
             { name: 'Boeuf thailandais', image: boeuf_thai, price: '2.80€ / 100g' },
             { name: 'Aubergines au basilic', image: aubergines, price: '1.80€ / 100g' },
@@ -160,12 +160,12 @@
         <Section
           title="Nos accompagnements"
           items={[
-            { name: 'Riz cantonnais', image: riz_cantonnais, price: '1.40€ / 100g' },
-            { name: 'Riz thailandais', image: riz_thai, price: '1.40€ / pièce' },
+            { name: 'Riz cantonnais', image: riz_cantonnais, price: '1.50€ / 100g' },
+            { name: 'Riz thailandais', image: riz_thai, price: '1.50€ / pièce' },
             { name: 'Nouilles sautées natures', image: nouilles, price: '1.60€ / 100g' },
             { name: 'Vermicelles sautées', image: vermicelles, price: '1.60€ / 100g' },
             { name: 'Pommes de terre sautées', image: patates, price: '1.60€ / 100g' },
-            { name: 'Legumes sautées', image: brocolis, price: '1.60€ / 100g' },
+            { name: 'Legumes sautées', image: brocolis, price: '1.80€ / 100g' },
             // Ajoute plus ici
           ]}
           setModalOpen={setModalOpen}

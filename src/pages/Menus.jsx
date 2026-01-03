@@ -15,7 +15,7 @@ const menus = [
         Plat au choix (poulet, porc ou boeuf)<br />
       </>
     ),
-    price: '9.00€'
+    price: '9.90€'
   },
   {
     title: 'Menu Vapeur',
@@ -27,7 +27,7 @@ const menus = [
         1 dessert
       </>
     ),
-    price: '9.00€'
+    price: '9.90€'
   },
   {
     title: 'Menu Complet',
@@ -41,7 +41,7 @@ const menus = [
         1 boisson
       </>
     ),
-    price: '11.00€'
+    price: '11.90€'
   },
   {
     title: 'Menu Brochettes',
@@ -54,7 +54,7 @@ const menus = [
         1 salade de choux japonais
       </>
     ),
-    price: '9.50€'
+    price: '10€'
   },
 ];
 
