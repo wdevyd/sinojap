@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import usePageMeta from '../hooks/usePageMeta';
 import menu1 from '../assets/Menus/menuExpress.png';
 import menu2 from '../assets/Menus/menuVapeur.png';
 import menu3 from '../assets/Menus/menuComplet.png';
@@ -59,6 +60,11 @@ const menus = [
 ];
 
 export default function Menus() {
+  usePageMeta(
+    'Nos Menus | Traiteur Sino-Japonais Paris 12',
+    'Découvrez nos 4 menus asiatiques : Menu Express, Vapeur, Complet et Brochettes. À partir de 9,90€. Traiteur asiatique fait maison, Paris 12 (Dugommier).'
+  );
+
   return (
     <div className="min-h-screen bg-white pt-24 pb-16 px-4">
       <h1 className="text-3xl md:text-5xl font-bold text-center text-red-700 mb-12">

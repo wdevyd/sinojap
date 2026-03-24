@@ -4,6 +4,7 @@
   import useScrollToHash from '../hooks/ScrollToAnchor.jsx';
   import { useState } from 'react';
   import ImageModal from '../components/ImageModal.jsx';
+  import usePageMeta from '../hooks/usePageMeta';
 
 
   /* Entrees */
@@ -101,8 +102,13 @@
     const [modalOpen, setModalOpen] = useState(false);
     const [modalImage, setModalImage] = useState(null);
     useScrollToHash();
+    usePageMeta(
+      'Carte & Prix | Traiteur Sino-Japonais Paris 12',
+      'Toute la carte du Traiteur Sino-Japonais : entrées, plats chauds, sushis, desserts et accompagnements avec les prix. Cuisine asiatique fait maison, Paris 12.'
+    );
     return (
       <div className="bg-white min-h-screen flex h-full flex-col">
+        <h1 className="sr-only">Notre Carte — Traiteur Sino-Japonais Paris 12</h1>
 
         {/* ENTRÉES */}
         <Section
@@ -159,6 +165,7 @@
         {/* Accompagnements */}
         <Section
           title="Nos accompagnements"
+          id="accompagnements"
           items={[
             { name: 'Riz cantonnais', image: riz_cantonnais, price: '1.50€ / 100g' },
             { name: 'Riz thailandais', image: riz_thai, price: '1.50€ / pièce' },

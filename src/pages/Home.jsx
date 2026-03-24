@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import usePageMeta from '../hooks/usePageMeta';
 
 // Avis clients mockés
 const testimonials = [
@@ -63,6 +64,10 @@ function StarRating({ rating }) {
 }
 
 export default function Home() {
+  usePageMeta(
+    'Traiteur Sino-Japonais Paris 12 | Cuisine Asiatique Fait Maison',
+    'Traiteur asiatique fait maison à Paris 12 (Dugommier). Nems, sushis, plats chauds, menus dès 9,90€. Ouvert tous les jours 11h–22h. ☎ 01 46 28 18 70.'
+  );
 
   const scrollRef = useRef(null);
   const [showArrow, setShowArrow] = useState(true);
