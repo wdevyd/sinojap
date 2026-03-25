@@ -1,9 +1,9 @@
-import fond from '../assets/Accueil/image.jpeg';
-import metro from '../assets/Accueil/metro.png';
-import boeufImg from '../assets/Accueil/platChaud.jpg'
-import menuImg from '../assets/Menus/menuComplet.png'
-import nemImg from '../assets/Entrees/nem.jpg'
-import sushiImg from '../assets/Sushis/sushiImg.jpg'
+import fond from '../assets/Accueil/image.webp';
+import metro from '../assets/Accueil/metro.webp';
+import boeufImg from '../assets/Accueil/platChaud.webp'
+import menuImg from '../assets/Menus/menuComplet.webp'
+import nemImg from '../assets/Entrees/nem.webp'
+import sushiImg from '../assets/Sushis/sushiImg.webp'
 
 
 import { Link } from 'react-router-dom';
@@ -281,7 +281,8 @@ export default function Home() {
           <div className="flex flex-col items-center">
             <img
               src={metro}
-              alt="station metro"
+              alt="Logo station de métro Dugommier"
+              loading="lazy"
               className="w-7 h-auto rounded shadow-md mb-2"
             />
             <p className="font-semibold">Métro</p>

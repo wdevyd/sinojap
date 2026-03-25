@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import usePageMeta from '../hooks/usePageMeta';
-import menu1 from '../assets/Menus/menuExpress.png';
-import menu2 from '../assets/Menus/menuVapeur.png';
-import menu3 from '../assets/Menus/menuComplet.png';
-import menu4 from '../assets/Menus/menuBrochettes.png';
+import menu1 from '../assets/Menus/menuExpress.webp';
+import menu2 from '../assets/Menus/menuVapeur.webp';
+import menu3 from '../assets/Menus/menuComplet.webp';
+import menu4 from '../assets/Menus/menuBrochettes.webp';
 
 const menus = [
   {
@@ -79,7 +79,7 @@ export default function Menus() {
             initial={false}
             animate={{ opacity: 1, y: 0 }}
           >
-            <img src={menu.image} alt={menu.title} className="w-full h-56 object-cover" />
+            <img src={menu.image} alt={menu.title} loading="lazy" className="w-full h-56 object-cover" />
             <div className="p-6 flex flex-col justify-between flex-grow min-h-[260px]">
               <h2 className="text-xl font-semibold text-white mb-2">{menu.title}</h2>
               <p className="text-m text-white mb-4 whitespace-pre-line">{menu.description}</p>

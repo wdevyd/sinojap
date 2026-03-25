@@ -1,4 +1,4 @@
-  import metro from '../assets/Accueil/metro.png';
+  import metro from '../assets/Accueil/metro.webp';
   import { Phone, Mail, MapPin } from 'lucide-react';
   import { motion } from 'framer-motion';
   import useScrollToHash from '../hooks/ScrollToAnchor.jsx';
@@ -8,60 +8,60 @@
 
 
   /* Entrees */
-  import nemPorc from '../assets/Entrees/nem.jpeg';
-  import rouleau_printemps from '../assets/Entrees/rouleau_printemps.jpeg'
-  import samoussa from '../assets/Entrees/samoussa.jpg'
-  import tempura from '../assets/Entrees/tempura.jpeg'
-  import papaye from '../assets/Entrees/papaye.jpeg'
-  import hakao from '../assets/Entrees/hakao.png'
-  import gyoza from '../assets/Entrees/gyoza-poulet.jpg'
-  import salade_choux from '../assets/Entrees/salade-de-choux.jpg'
-  import vietnamiens from '../assets/Entrees/vietnamien.jpg'
-  import bouchees from '../assets/Entrees/bouchees.jpg'
-  import champignons from '../assets/Entrees/champignons.jpg'
-  import pekinois from '../assets/Entrees/pekinois.jpg'
-  import ravLegumes from '../assets/Entrees/raviolisLegume.jpg'
-  import potage from '../assets/Entrees/potage-pekinois-piquant.jpg'
+  import nemPorc from '../assets/Entrees/nem.webp';
+  import rouleau_printemps from '../assets/Entrees/rouleau_printemps.webp'
+  import samoussa from '../assets/Entrees/samoussa.webp'
+  import tempura from '../assets/Entrees/tempura.webp'
+  import papaye from '../assets/Entrees/papaye.webp'
+  import hakao from '../assets/Entrees/hakao.webp'
+  import gyoza from '../assets/Entrees/gyoza-poulet.webp'
+  import salade_choux from '../assets/Entrees/salade-de-choux.webp'
+  import vietnamiens from '../assets/Entrees/vietnamien.webp'
+  import bouchees from '../assets/Entrees/bouchees.webp'
+  import champignons from '../assets/Entrees/champignons.webp'
+  import pekinois from '../assets/Entrees/pekinois.webp'
+  import ravLegumes from '../assets/Entrees/raviolisLegume.webp'
+  import potage from '../assets/Entrees/potage-pekinois-piquant.webp'
   
   /* Plats */
-  import boeuf_oignons from '../assets/Plats/boeufOignons.jpg'
-  import porcCaramel from '../assets/Plats/porcCaramel.png'
-  import pouletCaramel from '../assets/Plats/pouletCaramel.png'
-  import pouletCitron from '../assets/Plats/pouletCitron.jpg'
-  import pouletCroustillant from '../assets/Plats/poulet_croustillant.jpeg'
-  import aubergines from '../assets/Plats/aubergine.jpeg'
-  import brocolis from '../assets/Plats/brocolis.jpeg'
-  import boeuf_thai from '../assets/Plats/boeuf_thai.jpeg'
-  import crevettes from '../assets/Plats/crevettes.jpeg'
-  import patates from '../assets/Plats/patate_sautees.jpeg'
-  import nouilles from '../assets/Plats/nouilles.jpeg'
-  import pouletCoco from '../assets/Plats/poulet_coco.jpeg'
-  import poisson from '../assets/Plats/poisson.jpeg'
-  import vermicelles from '../assets/Plats/vermicelles.jpeg'
-  import poulet_teriyaki from '../assets/Plats/poulet_teriyaki.jpeg'
-  import riz_thai from '../assets/Plats/riz_thai.jpeg'
-  import riz_cantonnais from '../assets/Plats/riz_cantonnais.jpeg'
-  import tofu from '../assets/Plats/tofu.jpeg'
-  import soupeRaviolis from '../assets/Plats/soupeRaviolis.png'
-  import bobun from '../assets/Plats/bobun.png'
-  import gambas from '../assets/Plats/gambas.jpg'
-  import pouletPiquant from '../assets/Plats/pouletPiquant.png'
+  import boeuf_oignons from '../assets/Plats/boeufOignons.webp'
+  import porcCaramel from '../assets/Plats/porcCaramel.webp'
+  import pouletCaramel from '../assets/Plats/pouletCaramel.webp'
+  import pouletCitron from '../assets/Plats/pouletCitron.webp'
+  import pouletCroustillant from '../assets/Plats/poulet_croustillant.webp'
+  import aubergines from '../assets/Plats/aubergine.webp'
+  import brocolis from '../assets/Plats/brocolis.webp'
+  import boeuf_thai from '../assets/Plats/boeuf_thai.webp'
+  import crevettes from '../assets/Plats/crevettes.webp'
+  import patates from '../assets/Plats/patate_sautees.webp'
+  import nouilles from '../assets/Plats/nouilles.webp'
+  import pouletCoco from '../assets/Plats/poulet_coco.webp'
+  import poisson from '../assets/Plats/poisson.webp'
+  import vermicelles from '../assets/Plats/vermicelles.webp'
+  import poulet_teriyaki from '../assets/Plats/poulet_teriyaki.webp'
+  import riz_thai from '../assets/Plats/riz_thai.webp'
+  import riz_cantonnais from '../assets/Plats/riz_cantonnais.webp'
+  import tofu from '../assets/Plats/tofu.webp'
+  import soupeRaviolis from '../assets/Plats/soupeRaviolis.webp'
+  import bobun from '../assets/Plats/bobun.webp'
+  import gambas from '../assets/Plats/gambas.webp'
+  import pouletPiquant from '../assets/Plats/pouletPiquant.webp'
 
   /* Sushis */
-  import sushi_saumon from '../assets/Sushis/sushi.jpg'
-  import sushi_california from  '../assets/Sushis/sushiCalifornia.jpg'
-  import sushi_maki from '../assets/Sushis/SushiMaki.png'
-  import california_tempura from '../assets/Sushis/californiaTempura.jpg'
-  import sushi_sashimi from '../assets/Sushis/sashimi.png'
+  import sushi_saumon from '../assets/Sushis/sushi.webp'
+  import sushi_california from  '../assets/Sushis/sushiCalifornia.webp'
+  import sushi_maki from '../assets/Sushis/SushiMaki.webp'
+  import california_tempura from '../assets/Sushis/californiaTempura.webp'
+  import sushi_sashimi from '../assets/Sushis/sashimi.webp'
 
 
 
   /* Desserts */
-  import perleCoco from '../assets/Desserts/perleCoco.jpg'
-  import gateauSoja from '../assets/Desserts/gateauSoja.jpg'
-  import fruits from '../assets/Desserts/fruits.jpeg'
-  import gingembre from '../assets/Desserts/gingembre-confit.jpg'
-  import nougat from '../assets/Desserts/nougat.jpg'
+  import perleCoco from '../assets/Desserts/perleCoco.webp'
+  import gateauSoja from '../assets/Desserts/gateauSoja.webp'
+  import fruits from '../assets/Desserts/fruits.webp'
+  import gingembre from '../assets/Desserts/gingembre-confit.webp'
+  import nougat from '../assets/Desserts/nougat.webp'
   import missing from '../assets/Question_mark_alternate.svg'
 
 
@@ -82,6 +82,7 @@
             <img
               src={item.image}
               alt={item.name}
+              loading="lazy"
               className="w-32 h-32 object-cover cursor-pointer transform hover:scale-105 transition-transform duration-200"
               onClick={() => {
                 setModalImage({ src: item.image, alt: item.name });
@@ -240,7 +241,8 @@
               <p className="text-sm">3 bd de Reuilly, 75012 Paris</p>
               <img
                 src={metro}
-                alt="station metro"
+                alt="Logo station de métro Dugommier"
+                loading="lazy"
                 className="w-7 h-auto rounded shadow-md mt-4"
               />
               <p className="text-sm md:text-base text-center md:text-left">
