@@ -1,12 +1,12 @@
 import metro from '../assets/Accueil/metro.webp';
 import boeufImg from '../assets/Accueil/platChaud.webp'
 import menuImg from '../assets/Menus/menuComplet.webp'
-import nemImg from '../assets/Entrees/nem.webp'
+import nemImg from '../assets/Entrees/nem_home.webp'
 import sushiImg from '../assets/Sushis/sushiImg.webp'
 
 
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 import { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import usePageMeta from '../hooks/usePageMeta';
@@ -288,6 +288,13 @@ export default function Home() {
             />
             <p className="font-semibold">Métro</p>
             <p className="text-sm">Dugommier</p>
+          </div>
+
+          {/* Horaires */}
+          <div className="flex flex-col items-center md:col-span-3">
+            <Clock className="w-8 h-8 text-red-600 mb-2" />
+            <p className="font-semibold">Horaires d'ouverture</p>
+            <p className="text-sm">Tous les jours — 11h à 22h</p>
           </div>
         </div>
       </section>
