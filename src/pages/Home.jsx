@@ -146,7 +146,7 @@ export default function Home() {
                   transition={{ duration: 0.6, delay: index * 0.2 }}
                   viewport={{ once:true, amount: 0.6 }}
                   draggable={false}
-                  className="text-white text-3xl md:text-5xl font-semibold italic mb-9 font-sans"
+                  className="text-white text-3xl md:text-5xl font-semibold italic mb-9 font-sans text-center"
                 >
                   {item.title}
                 </motion.h3>
